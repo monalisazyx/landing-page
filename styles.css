@@ -21,7 +21,7 @@ img {
     background-color: black;
     color: aliceblue;
     text-align:center;
-    
+    padding-top: 55px;
 }
 .items {
     display:flex;
@@ -74,7 +74,12 @@ button {
     display: flex;
     justify-content:center;
     padding-top:30px;
-    gap:20px;
-    flex-basis:250px;
+    gap:40px;
     flex-wrap: wrap;
+    margin:40px 60px;
+    padding:20px;
+
+}
+h2 {
+    font-size : 30px;
 }
