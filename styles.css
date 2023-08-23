@@ -29,9 +29,10 @@ img {
     justify-content: center;
     padding:20px;
 }
+
 img.top {
-    width:450px;
-    height:280px;
+    width: 270px;
+    height:480px;
 }
 img {
     border-radius: 12px;
@@ -82,5 +83,18 @@ button {
 }
 h2 {
     font-size : 40px;
+}
+.three {
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+    padding:100px;
+}
+p {
+    font-size:18px;
+    font-weight: 400;
+}
+h4 {
+
 }
 
