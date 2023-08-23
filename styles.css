@@ -8,12 +8,14 @@ img {
 }
 .one {
     display:flex;
-    gap:30px;
+    flex-direction: row;
+    gap:150px;
     justify-content: center;
     align-items: center;
     background-color: black;
     color: aliceblue;
     padding-top:50px;
+    background-image: url(/home/monalisa/Downloads/robert-lukeman-_RBcxo9AU-U-unsplash.jpg);
 }
 .two {
     display:flex;
@@ -47,10 +49,7 @@ a {
     text-decoration: none;
     color:rgb(156, 154, 154);
 }
-.links {
-   
 
-}
 .header {
     background-color:black;
     display: flex;
@@ -94,7 +93,5 @@ p {
     font-size:18px;
     font-weight: 400;
 }
-h4 {
 
-}
 
