@@ -1,22 +1,25 @@
 img {
     width:250px;
     height:250px;
+    border-radius: 12px;
 }
 
 .one {
     display:flex;
     flex-direction: row;
     gap:50px;
-    justify-content: flex-start;
     padding:100px;
-    align-items: center;
     background-color: black;
     color: black;
     padding-top:50px;
     background-image: linear-gradient(63deg, rgb(243, 243, 101), rgb(250, 56, 56) , rgb(66, 66, 252));
-    height: 500px;
     justify-content: center;
     align-items: center;
+    
+    flex-wrap: wrap;
+    
+    
+   
 
 }
 .two {
@@ -32,18 +35,18 @@ img {
     gap:30px;
     justify-content: center;
     padding:20px;
+    flex-wrap: wrap;
 }
 
 img.top {
-    width: 412px;
-    height:412px;
+    width: 312px;
+    height: 312px;
+    
     border: 8px solid black;
 
 
 }
-img {
-    border-radius: 12px;
-}
+
  
 a {
     text-decoration: none;
@@ -53,19 +56,21 @@ a {
 
 
 
-h1 {
-    font-size:70px;
+.h1 {
+    font-size:40px;
 
 }
 
 button {
+    width: 15vh;
     background-color: black;
     color:white;
     padding:8px;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     border: 3px solid white;
+    
 
 }
 .four {
@@ -103,10 +108,7 @@ body {
     margin:50PX;
 }
 
-.left{
-    font-size: 300px;
-    font-weight: 900;
-}
+
 .header{
     background-color: black;
     color: white;
@@ -115,7 +117,7 @@ body {
     display:flex;
     justify-content: space-between;
 }
-.top {
+.info{
     display: flex;
     flex-wrap: wrap;
 }
@@ -125,6 +127,9 @@ body {
     padding-top:30px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    font-size: 300px;
+    font-weight: 900;
 }
 ul {
     display: flex;
@@ -148,3 +153,13 @@ a:hover{
   color: aqua;
 }
 
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    gap:35px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+}
