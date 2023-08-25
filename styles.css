@@ -63,10 +63,14 @@ h1 {
 }
 
 button {
-    background-color: blanchedalmond;
+    background-color: white;
     color:black;
-    padding:4px;
+    padding:5px;
     border-radius: 5px;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-color: white;
 }
 .four {
     background-color: black;
@@ -81,7 +85,7 @@ button {
 
 }
 h2 {
-    font-size : 40px;
+    font-size : 50px;
 }
 .three {
     background-color: black;
@@ -90,8 +94,10 @@ h2 {
     padding:100px;
 }
 p {
-    font-size:18px;
+    font-size:20px;
     font-weight: 400;
 }
 
-
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
