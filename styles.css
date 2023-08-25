@@ -48,22 +48,15 @@ img.top {
 img {
     border-radius: 12px;
 }
-nav ul {
-    list-style: none;
-    display:flex;
-    gap:25px;
-    justify-content: flex-end;
-
-}
+ 
 a {
     text-decoration: none;
     color:rgb(2, 2, 2);
 }
 
-.header {
-    background-color: black;
 
-}
+
+
 h1 {
     font-size:50px;
 
@@ -113,10 +106,7 @@ body {
     background-color: black;
     font-weight: 800;
 }
-nav {
-    display: flex;
-    justify-content: flex-end;
-}
+
 .left{
     font-size: 300px;
     font-weight: 900;
@@ -133,6 +123,12 @@ nav {
 .text {
     display: flex;
     flex-direction: column;
-    padding-top:180px;
+    padding-top:30px;
     justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
 }
