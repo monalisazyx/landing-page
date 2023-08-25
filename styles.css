@@ -139,7 +139,12 @@ img.logo {
 }
 nav {
    padding-right: 30px;
+   align-items: center;
 }
 .header, .one , .four {
     border-radius: 8px;
 }
+a:hover{
+  color: aqua;
+}
+
